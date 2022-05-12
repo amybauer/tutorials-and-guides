@@ -319,5 +319,6 @@ git push origin main                    # pushes changes from the local main to 
 
 ***
 
-**Acknowledgements: **
+**Acknowledgements**
+
 The Campbell lab would like to thank Mitch Brooks for his time, help, and patience, all of which proved invaluable to conquering these first steps of learning git.
