@@ -1,8 +1,4 @@
 ---
-title: "Mini git tutorial 1 - getting the Campbell Lab started"
-author: "Amy Bauer"
-date: "2022-05-12"
-
 output: rmarkown::github_document
 ---
 
