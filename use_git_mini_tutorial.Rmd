@@ -316,3 +316,8 @@ git push origin main                    # pushes changes from the local main to 
 ```
 
 <img src="./github/git_push_to_main.png" alt="Screenshot of wsl pushing a project to remote main branch" width="539" length="394">
+
+***
+
+**Acknowledgements: **
+The Campbell lab would like to thank Mitch Brooks for his time, help, and patience, all of which proved invaluable to conquering these first steps of learning git.
