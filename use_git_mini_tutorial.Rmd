@@ -80,7 +80,7 @@ git config --list          # you can check your configurations any time by using
 Now that we navigated to our chosen folder, we can go ahead and initialize a git repository within this directory or make a local copy of a online git repository to our computer by cloning it from github. 
 In our browser, we navigate to the repository we wish to clone. Here, we click on the green code button to retrieve the link. Since we previously added a SSH key to our profile, we will clone using the SSH path. 
 
-<img src="git_clone.png" alt="find clone link on github" width="533" height="240">
+<img src="./github/git_clone.png" alt="find clone link on github" width="533" height="240">
 
 
 ```
@@ -136,7 +136,7 @@ git merge amy               # merge changes from amy into e.g., main
 
 Does this look familiar?
 
-<img src="git_savedfiles.png" alt="Screenshot of a timeline based name saving system for word documents" width="535" height="90">
+<img src="./github/git_savedfiles.png" alt="Screenshot of a timeline based name saving system for word documents" width="535" height="90">
 
 Git essentially creates something very similar and thus serves as a timeline management utility. With above word documents serving as analogy, each new commit of a staged change is comparable to a new document created with the save as function. 
 Each commit is a snapshot along the timeline of the git project that captures the state of the project at the point in time the commit is created. Additionally, git will never change commits (unless explicitly told to), and they can be used to backtrack when, by whom, and what kind of changes were made, and serve as backups. 
@@ -315,4 +315,4 @@ git merge [developing branch]           # merges the local developing branch int
 git push origin main                    # pushes changes from the local main to the remote main branch
 ```
 
-<img src="git_push_to_main.png" alt="Screenshot of wsl pushing a project to remote main branch" width="539" length="394">
+<img src="./github/git_push_to_main.png" alt="Screenshot of wsl pushing a project to remote main branch" width="539" length="394">

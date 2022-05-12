@@ -101,7 +101,7 @@ our browser, we navigate to the repository we wish to clone. Here, we
 click on the green code button to retrieve the link. Since we previously
 added a SSH key to our profile, we will clone using the SSH path.
 
-<img src="clone.png" alt="find clone link on github" width="533" height="240">
+<img src="./github/git_clone.png" alt="find clone link on github" width="533" height="240">
 
     git init                   # create a new local repository
 
@@ -151,7 +151,7 @@ example, we might want to merge new changes that were made in branch
 
 Does this look familiar?
 
-<img src="savedfiles.png" alt="Screenshot of a timeline based name saving system for word documents" width="535" height="90">
+<img src="./github/git_savedfiles.png" alt="Screenshot of a timeline based name saving system for word documents" width="535" height="90">
 
 Git essentially creates something very similar and thus serves as a
 timeline management utility. With above word documents serving as
@@ -363,4 +363,4 @@ branch.
 
     git push origin main                    # pushes changes from the local main to the remote main branch
 
-<img src="push_to_main.png" alt="Screenshot of wsl pushing a project to remote main branch" width="539" length="394">
+<img src="./github/git_push_to_main.png" alt="Screenshot of wsl pushing a project to remote main branch" width="539" length="394">
