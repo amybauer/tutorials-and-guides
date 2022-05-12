@@ -9,7 +9,7 @@ output:
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
-  fig.path = "github/"
+  fig.path = "/github/"
 )
 ```
 
