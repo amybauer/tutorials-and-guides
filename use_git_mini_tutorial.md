@@ -21,7 +21,7 @@ folder)*
 
 ------------------------------------------------------------------------
 
-# Get ready on our Windows Computers
+# Getting reading on a Windows Computer
 
 ### Open wsl and some basics
 
@@ -90,7 +90,7 @@ do so by listing the git configurations.
     git config --global user.name "[Your Name]"
     git config --global user.email "[youremail@domain.com]"
 
-    git config --list          # you can check your configurations any time by using
+    git config --list          # we can check our configurations any time by using this
 
 ### Creating and cloning
 
@@ -99,18 +99,23 @@ initialize a git repository within this directory or make a local copy
 of a online git repository to our computer by cloning it from github. In
 our browser, we navigate to the repository we wish to clone. Here, we
 click on the green code button to retrieve the link. Since we previously
-added a SSH key to our profile, we will clone using the SSH path.
+added a SSH key to our profile, we will clone using the **SSH** path.
 
 <img src="./github/git_clone.png" alt="find clone link on github" width="533" height="240">
 
     git init                   # create a new local repository
 
     git clone <url>            # make a local copy of a repository from the web
-    git clone git@github.com:Campbell-Lab-FMEL/test.git   #  
+    git clone git@github.com:Campbell-Lab-FMEL/test.git   # this is the SSH path
 
-Now that we the repository to our directory, we can check if the cloning
-was successful by listing all folders inside our directory using the
-`ls` command. We will then navigate into the newly created directory.
+We can also clone using the **https** url. However, we would then have
+to enter our github login and personal token every single time we want
+to push or pull something from the remote repository.
+
+Now that we downloaded a copy of the remote repository to our directory,
+we can check if the cloning was successful by listing all folders inside
+our current directory using the `ls` command. We will then navigate into
+the newly created directory.
 
     ls                          # lists all elements within the directory
 
@@ -236,15 +241,18 @@ our repository.
 
 ### Undo changes
 
-*this is not something I have dealt with in detail yet, please proceed
-with caution*
+*As of May 2022, this is not something I have dealt with in detail yet -
+please proceed with caution*
 
 Suppose we change our mind and do not like our changes anymore, maybe
 because our absolutely perfect and amazing loop code totally broke after
-Petrie walked around on Amy’s keyboard while she went to grab a snack.
-Unbeknownst of this sabotage, she then went and added (or even
-committed) the changed .r file. We can undo this change using the
-`git reset` command.
+Petrusilius Zwackelmann walked around on Amy’s keyboard while she went
+to grab a snack. Unbeknownst of Petrie’s sabotage, she then went and
+staged (or even committed) the changed .r file.
+
+<img src="./github/git_serotonin_boost.jpg" alt="Screenshot of wsl pushing a project to remote main branch" width="535" length="266">
+
+Luckily, we can undo changes using the `git reset` command.
 
     git reset                   # Removes everything from the staging area (but not the working directory)
 
@@ -255,8 +263,8 @@ committed) the changed .r file. We can undo this change using the
     git reset --hard [commit]   # Sets branch to the specified [commit]. Discards all local changes
     git reset --hard fd5b0f3e5f3589238    # Petrie will totally get house arrest if this ever becomes necessary
 
-However, we might have committed a project prematurely and some changes
-to our code are still missing, which we noticed soon after. Instead of
+We could also have committed a project prematurely and some changes to
+our code are still missing, which we noticed soon after. Instead of
 removing or resetting **the last commit**, we can go and amend it. For
 this, we stage the desired ‘final’ state of the project and use
 `git commit --amend` to commit it. We are then able to modify the last
