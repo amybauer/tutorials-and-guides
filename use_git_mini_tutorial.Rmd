@@ -22,7 +22,7 @@ output:
 *If this is not the case, do this before getting started here.*
 
 ***
-# Getting reading on a Windows Computer
+# Getting ready on a Windows Computer
 ### Open wsl and some basics
 
 We start by opening the Windows Subsystem for Linux (wsl) on our computer. Wsl allows us to run a Linux environment directly on our Windows system, without having to use a traditional virtual machine or dualboot setup. 
