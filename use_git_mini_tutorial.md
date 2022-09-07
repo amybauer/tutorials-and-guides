@@ -21,7 +21,7 @@ folder)*
 
 ------------------------------------------------------------------------
 
-# Getting reading on a Windows Computer
+# Getting ready on a Windows Computer
 
 ### Open wsl and some basics
 
