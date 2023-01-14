@@ -1,9 +1,11 @@
-Mini git tutorial 1 - getting the Campbell Lab started
+Mini git tutorial - getting started with git and GitHub
 ================
 Amy Bauer
 5/9/2022
 
 ------------------------------------------------------------------------
+
+This tutorial has been developed to provide an easy walkthrough on how to get started with git and GitHub, while serving as an easy-to-use resource for commonly used commands.
 
 *This mini workflow assumes you already have*
 
